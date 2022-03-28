@@ -11,7 +11,7 @@ At Hochschule Merseburg, this project is used for exactly the same purpose in th
 
 http://gitpod.io/[GitPod] is a cloud IDE that allows you to work with a project right from your browser:
 
-1. Click https://gitpod.io/#https://github.com/HOME-programming-lab/guestbook[this link] to open the project in GitPod.
+1. Click https://gitpod.io/#https://github.com/HOME-programming-pub/guestbook[this link] to open the project in GitPod.
 2. Wait for the build to finish (see progress in the console view).
 3. Once the website opens in the embedded preview browser, the project is ready to be worked with.
 
@@ -23,7 +23,7 @@ Also, note that you have to run `mvnw.cmd` instead of `./mvnw` if you run Window
 
 [source, shell]
 ----
-$ git clone https://github.com/HOME-programming-lab/guestbook
+$ git clone https://github.com/HOME-programming-pub/guestbook
 $ cd guestbook
 $ ./mvnw clean package
 $ ./mvnw spring-boot:run
