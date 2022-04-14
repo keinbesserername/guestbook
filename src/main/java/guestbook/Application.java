@@ -15,7 +15,7 @@
  */
 package guestbook;
 
-import java.util.stream.Stream;
+//import java.util.stream.Stream;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
