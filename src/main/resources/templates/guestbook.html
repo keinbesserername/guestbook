@@ -56,7 +56,7 @@
 			<div class="form-group">
 				<label for="name" th:text="#{guestbook.form.name}">EMail</label><br /> 
 				<input class="form-control" type="text" th:field="*{email}" th:errorclass="is-invalid" required="required" />
-				<div th:if="${#fields.hasErrors('email')}" class="invalid-feedback" th:text="#{guestbook.form.name.required}">Please provide a name.</div> 
+				<div th:if="${#fields.hasErrors('email')}" class="invalid-feedback" th:text="#{guestbook.form.name.required}">Please provide a EMail.</div> 
 			</div>
 			<div class="form-group">
 				<label for="text" th:text="#{guestbook.form.text}">Text</label><br /> 
