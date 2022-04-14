@@ -24,7 +24,8 @@ import javax.persistence.Id;
 import org.springframework.util.Assert;
 
 /**
- * A guestbook entry. An entity as in the Domain Driven Design context. Mapped onto the database using JPA annotations.
+ * A guestbook entry. An entity as in the Domain Driven Design context. Mapped
+ * onto the database using JPA annotations.
  *
  * @author Paul Henke
  * @author Oliver Drotbohm
@@ -37,6 +38,7 @@ class GuestbookEntry {
 	private final String name, text;
 	private final LocalDateTime date;
 	private final String email;
+
 	/**
 	 * Creates a new {@link GuestbookEntry} for the given name and text.
 	 *
@@ -51,7 +53,7 @@ class GuestbookEntry {
 		this.name = name;
 		this.text = text;
 		this.date = LocalDateTime.now();
-		this.email =email;
+		this.email = email;
 	}
 
 	@SuppressWarnings("unused")
@@ -77,7 +79,8 @@ class GuestbookEntry {
 	public String getText() {
 		return text;
 	}
-	public String getEmail(){
+
+	public String getEmail() {
 		return email;
 	}
 }
